@@ -1,0 +1,438 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A ballad of a countrey vvedding, by King James the Fifth of Scotland.</title>
+            <author>James V, King of Scotland, 1512-1542.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A87493</idno>
+            <idno type="STC">Wing J412</idno>
+            <idno type="STC">Thomason 669.f.25[14]</idno>
+            <idno type="STC">ESTC R211891</idno>
+            <idno type="EEBO-CITATION">99870565</idno>
+            <idno type="PROQUEST">99870565</idno>
+            <idno type="VID">163819</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A87493)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 163819)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 247:669f25[14])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A ballad of a countrey vvedding, by King James the Fifth of Scotland.</title>
+                  <author>James V, King of Scotland, 1512-1542.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.)   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1660]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Place and date of publication from Wing.</note>
+                  <note>Annotation on Thomason copy: "May 9 1660".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ballads, Scots --  16th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="ballad">
+            <pb facs="tcp:163819:1" rendition="simple:additions"/>
+            <head>A BALLAD of a Countrey VVedding, By KING <hi>JAMES</hi> the Fifth of <hi>SCOTLAND.</hi>
+            </head>
+            <lg>
+               <l>WA's ner'e in <hi>Scotland</hi> heard nor ſeen</l>
+               <l>Sic dreſſing nor <note n="*" place="margin">Drawing up in order.</note> de ray,</l>
+               <l>Neither at <hi>Faulkland</hi> on the Green</l>
+               <l>Nor-<hi>Peblis</hi> at the Play,</l>
+               <l>As was (of Woers as I ween)</l>
+               <l>At <hi>Chriſts</hi> Kirk on a day:</l>
+               <l>For there came <hi>Ketty</hi> waſhen clean,</l>
+               <l>In her new Gown of gray,</l>
+               <l>
+                  <hi>So gay that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>To dance there, Damſels them <note n="*" place="margin">Adreſt.</note> dight</l>
+               <l>Theſe Laſſes <note n="†" place="margin">Wanton.</note> light of Laight's,</l>
+               <l>Their Gloves were of the Raffle right,</l>
+               <l>Their Shoes were of the ſtraits:</l>
+               <l>Their Kittles were of <hi>Lincoln</hi> light</l>
+               <l>Wele preſs'd with many plaits,</l>
+               <l>They were ſo nice, when men them <note n="*" place="margin">Drew neer.</note> nigh't</l>
+               <l>They ſqueak'd like any Gaits</l>
+               <l>
+                  <hi>Full loud that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Of all theſe Maidens mild as Mede</l>
+               <l>None was ſo <note n="*" place="margin">Neat.</note> Jimp as <hi>Geilly,</hi>
+               </l>
+               <l>As any Roſe her <note n="†" place="margin">The apples of the Chek.</note> Rude was red,</l>
+               <l>Her <note n="*" place="margin">Neck and Collar.</note> Lyre was like the Lilly.</l>
+               <l>But yellow, yellow was her head,</l>
+               <l>And ſhe of love ſo ſillie,</l>
+               <l>Though all her Kin had ſworn her dead,</l>
+               <l>She would have none but <hi>Willie</hi>
+               </l>
+               <l>
+                  <hi>All on that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>She ſcorned <hi>Jocky,</hi> and <note n="*" place="margin">Slighted him.</note> skirped at him,</l>
+               <l>And <note n="†" place="margin">Jeer'd him.</note> murgeon'd him with mocks,</l>
+               <l>He would have lov'd her, ſhe would not let him</l>
+               <l>For all his yellow locks,</l>
+               <l>He cheriſh'd her, ſhe bid go pack him,</l>
+               <l>She counted him not twa clocks,</l>
+               <l>So ſhamefully his ſhort Cloak ſet him</l>
+               <l>His legs were like twa <note n="*" place="margin">A Diſtaffe.</note> Rocks</l>
+               <l>
+                  <hi>Or</hi> 
+                  <note n="†" place="margin">Cudgells.</note> 
+                  <hi>Rungs that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Tom Luter</hi> was their Minſtrell meet</l>
+               <l>Good Lord how he could dance,</l>
+               <l>He playd ſo ſhrill and ſung ſo ſweet</l>
+               <l>Till <hi>Tooſie</hi> took a trance:</l>
+               <l>Old <hi>Lightfoot</hi> there he did <note n="*" place="margin">Lead on.</note> foreleete</l>
+               <l>And counterfeted <hi>France,</hi>
+               </l>
+               <l>He held him like a man diſcreete</l>
+               <l>And up the Morice Dance</l>
+               <l>
+                  <hi>He led that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then <hi>Steven</hi> came ſtepping in with ſtends,</l>
+               <l>No Rink might him areſt,</l>
+               <l>
+                  <hi>Plyfoot</hi> did bob with many bends,</l>
+               <l>For <hi>Maſie</hi> he made requeſt,</l>
+               <l>He lap while he lay on his <note n="*" place="margin">Brecche.</note> Lends,</l>
+               <l>And riſing was ſo preſt,</l>
+               <l>While he did <note n="†" place="margin">Fart.</note> hoaſt at both the ends,</l>
+               <l>For honour of the Feaſt,</l>
+               <l>
+                  <hi>And Dance that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then <hi>Robin Roy</hi> began to <note n="*" place="margin">Rant.</note> revell,</l>
+               <l>And <hi>Tooſie</hi> to him drugged,</l>
+               <l>Let be, quoth <hi>Jocky,</hi> and cald him <note n="†" place="margin">Baſe fellow.</note> Jevell,</l>
+               <l>And by the tayle her tugged.</l>
+               <l>Then <hi>Kenſie</hi> 
+                  <note n="*" place="margin">Pull'd a Pole or beggars ſtaffe.</note> cleeked up a Kevell,</l>
+               <l>God wote how they twa lugged,</l>
+               <l>They parted her upon a <note n="†" place="margin">Box on the ear.</note> Nevell,</l>
+               <l>Men ſay their haire was <note n="*" place="margin">Pull'd.</note> rugged</l>
+               <l>
+                  <hi>Between them twa.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With that a friend of his cry'd <hi>Fie,</hi>
+               </l>
+               <l>And furth one Arrow drew,</l>
+               <l>He forged it ſo forcefully</l>
+               <l>The Bow in flinters flew:</l>
+               <l>Sic was the grace of God trow I,</l>
+               <l>For had the tree been trew</l>
+               <l>Men ſayd who knew his Archery,</l>
+               <l>That he had ſlayn enew,</l>
+               <l>
+                  <note n="*" place="margin">In a moment.</note> 
+                  <hi>Belive that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A <note n="*" place="margin">A raw young fellow.</note> yap young man that ſtood him nyeſt</l>
+               <l>Soon bent his Bow in Ire,</l>
+               <l>And <note n="†" place="margin">Aymed the man.</note> etled the Berne in at the Breſt,</l>
+               <l>The Bolt flew ore the <note n="*" place="margin">The Cow<g ref="char:EOLhyphen"/>houſe.</note> Byre:</l>
+               <l>He cryed Fie, he had ſlain a Prieſt</l>
+               <l>A mile beyond the Myre,</l>
+               <l>Both Bow and bagg from him he <note n="†" place="margin">Did throw a<g ref="char:EOLhyphen"/>way.</note> keiſt</l>
+               <l>And fled as faſt as fire</l>
+               <l>
+                  <hi>From flint that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>A Luſty Kinſman was called <hi>Harry</hi>
+               </l>
+               <l>That was an Archer keen,</l>
+               <l>Ty'd up a <note n="*" place="margin">Bow-ſtring.</note> Tackle withouten tarry</l>
+               <l>I trow the man was <note n="†" place="margin">Mad.</note> teen:</l>
+               <l>I wot not whether his hand did vary,</l>
+               <l>Or his Foe was his Friend,</l>
+               <l>But he eſcap'd by the might of <hi>Mary,</hi>
+               </l>
+               <l>As man that nothing mein'd</l>
+               <l>
+                  <hi>But good that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then <hi>Lawrence</hi> like a Lyon lapp</l>
+               <l>And ſoon a <note n="*" place="margin">An Arrow.</note> flegge gan <note n="†" place="margin">Let fly.</note> fedder,</l>
+               <l>He heght to pierce him at the papp</l>
+               <l>Thereon to <note n="†" place="margin">To wager a sheep.</note> wed a Wedder,</l>
+               <l>He hit him on the womb a <note n="*" place="margin">A blow.</note> wapp</l>
+               <l>It burſt like any bladder:</l>
+               <l>He eſcaped ſo, ſic was his happ</l>
+               <l>His Doublet was of Leather</l>
+               <l>
+                  <hi>Full fine that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The buff ſo boiſterouſly abaſed him</l>
+               <l>That he to the earth duſh'd down;</l>
+               <l>The other man ſo dead he left him,</l>
+               <l>And fled out of the Town:</l>
+               <l>The Wiffs came furth, and up the reſt him</l>
+               <l>And found life in the lown:</l>
+               <l>Then with their routs there they rais'd him,</l>
+               <l>And cur'd him out of ſown;</l>
+               <l>
+                  <note n="†" place="margin">Suddenly.</note> 
+                  <hi>Frae hand that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Miller was of a manly Maik</l>
+               <l>To moot him was no mowes,</l>
+               <l>There durſt no ten men there him take</l>
+               <l>So <note n="*" place="margin">Knocked their pates.</note> Nowed he their powes,</l>
+               <l>The <note n="†" place="margin">Ambuſhment.</note> buſhment whole about him brake</l>
+               <l>And bicked him with bowes:</l>
+               <l>Then trayterouſly behinde his back</l>
+               <l>They hack'd him on his <note n="*" place="margin">Hamſtring'd him.</note> Howes</l>
+               <l>
+                  <hi>Behinde that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then <hi>Hutcheon</hi> with ane hazel ryce</l>
+               <l>To <note n="*" place="margin">Part them.</note> red gan throw them rummel</l>
+               <l>He <note n="†" place="margin">Trod.</note> mudled them down like any Myce,</l>
+               <l>He was no bettle bummel:</l>
+               <l>Though he was wight, he was not wiſe</l>
+               <l>With ſuch matters to jummel,</l>
+               <l>For from his thumb there flew a ſlyce</l>
+               <l>While he cry'd barlafummel</l>
+               <l>
+                  <hi>I'm ſlain this day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When that he ſaw his blood ſo red</l>
+               <l>To flee might no man let him,</l>
+               <l>He trow'd it had been for old <note n="*" place="margin">Quarrell.</note> feud</l>
+               <l>He thought they bid have at him,</l>
+               <l>He made his <note n="†" place="margin">Ran away.</note> feet defend his head</l>
+               <l>The far fairer it ſat him,</l>
+               <l>While he was paſt out of their plead</l>
+               <l>They muſt run faſt that gat him</l>
+               <l>
+                  <hi>Through ſpeed that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Twa that were heardſmen of the Heard,</l>
+               <l>They ruſh'd on other like ramms,</l>
+               <l>The other fower that were unfear'd</l>
+               <l>Beate on with Barrow <note n="†" place="margin">Great levers.</note> Tramms:</l>
+               <l>And where their <note n="*" place="margin">Mouthes un<g ref="char:EOLhyphen"/>armed.</note> Gobs were unbegeard</l>
+               <l>They gat upon the <note n="†" place="margin">Leggs.</note> Gamms,</l>
+               <l>While that all blood-run was their beard</l>
+               <l>As they had worried Lamb's</l>
+               <l>
+                  <hi>Moſt like that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>With Forks and Flayls then let they flapps,</l>
+               <l>And flew together with friggs,</l>
+               <l>With <note n="*" place="margin">Rafters.</note> Kebbers of barns they pierc'd blew Capps</l>
+               <l>While of the Berns they made <note n="†" place="margin">Treading on their Children.</note> briggs.</l>
+               <l>The rore roſe rudely with their rapps</l>
+               <l>When <note n="†" place="margin">Poles were beaten to the ground.</note> ruggs were laid on riggs</l>
+               <l>The Wiffes came forth with cryes and clapps,</l>
+               <l>See where my liking liggs</l>
+               <l>
+                  <hi>Full low this day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <note n="*" place="margin">Cobler.</note> black Sowter of breath was bounden,</l>
+               <l>His wife hang by his waſte,</l>
+               <l>His body was in black all branden,</l>
+               <l>He girned like a Ghaiſt:</l>
+               <l>Hir glittering haire that was ſo golden</l>
+               <l>His love faſt for him lac't,</l>
+               <l>That for her ſake he was ſoe <note n="†" place="margin">Undone.</note> unenden</l>
+               <l>While he a mile was chac't</l>
+               <l>
+                  <hi>And mair that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When they had <note n="*" place="margin">Fought.</note> beerd like baited Bulls,</l>
+               <l>The Banefires burn in <note n="†" place="margin">Fiercely.</note> bails,</l>
+               <l>They grew as meek as any Mules</l>
+               <l>That weary were with Mayls,</l>
+               <l>For tyredneſſe thoſe forfoughten fools</l>
+               <l>Fell down like flatchter <note n="*" place="margin">Flakes of ſnow.</note> fails,</l>
+               <l>Freſh men came in and hayld the <note n="†" place="margin">Fathers.</note> Dods,</l>
+               <l>And dang them down in dayls,</l>
+               <l>
+                  <hi>Bedeene that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Wiffs then gave a hideous yell</l>
+               <l>When all the Yonkers yoaked,</l>
+               <l>As fierce as flaggs of fire fl<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ks fell,</l>
+               <l>
+                  <note n="†" place="margin">Soon.</note> Freiks to the fields they flocked:</l>
+               <l>Then <note n="*" place="margin">Clowas.</note> Carls with clubs did other quell</l>
+               <l>On breaſts while blood out <note n="†" place="margin">Belch.</note> bocked,</l>
+               <l>So rudely rang the common bell</l>
+               <l>That all the Steeple rocked</l>
+               <l>
+                  <hi>For dread that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>By that <hi>Tom Taylor</hi> was in his Geare,</l>
+               <l>When he heard the common bell,</l>
+               <l>He ſaid that he ſhould put them all in sfeare</l>
+               <l>When he came there himſel,</l>
+               <l>He went to fight with ſuch a feare</l>
+               <l>While to the ground he fell,</l>
+               <l>A wiffe then hat him on the eare</l>
+               <l>With a great knocking mell</l>
+               <l>
+                  <hi>Feld him that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Bridegroom brought a pynt of Ale</l>
+               <l>And bad the Pyper drink it,</l>
+               <l>Drink it (qnoth he) and it ſo ſtale,</l>
+               <l>I ſhrew me if I drink it.</l>
+               <l>The Brides Maiden ſtood near him by</l>
+               <l>And ſaid it was not Blinkit:</l>
+               <l>And <hi>Bartagoſy</hi> the Bride ſo gay</l>
+               <l>Upon them faſt ſhe winked</l>
+               <l>
+                  <hi>Full ſoon that day.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When all was done, <hi>Dick</hi> with an Axe</l>
+               <l>Came forth to fell a <note n="*" place="margin">Kill the whole party.</note> Foother,</l>
+               <l>Quoth he, where are you whoreſon <note n="†" place="margin">Rogues.</note> Smaicks</l>
+               <l>Right now that hurt my Brother?</l>
+               <l>His Wife bad him goe hame Gib <note n="*" place="margin">Doting fool.</note> Glaiks,</l>
+               <l>And ſo did <hi>Meg</hi> his Mother;</l>
+               <l>He turn'd and gave them both their Paiks, <note place="margin">† Javelins.</note>
+               </l>
+               <l>For he durſt ding none other</l>
+               <l>
+                  <hi>But them that day.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
